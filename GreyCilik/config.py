@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1784606556  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "greyyvbss"
-    SUPPORT_CHAT = "CilikSupport"  # Your own group for support, do not add the @
+    API_ID = 16246834  # integer value, dont use ""
+    API_HASH = "29b3ffa9245c07f05375b92f38e8f13d"
+    TOKEN = "5851945481:AAHyxkGMsxi0bOipQSJmcZTHv6tbabFu_UU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1715348447  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Azure_id"
+    SUPPORT_CHAT = "nakama_asl"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001692951846
+        -1001729142523
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001692951846
+        -1001729142523
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://ypjfhsyi:NH3pDnscfH4QM_Tri80yuyNUgNUSFKUi@lucky.db.elephantsql.com/ypjfhsyi"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
