@@ -32,17 +32,17 @@
       "TOKEN": {
          "description": "Masukan Bot Token kamu silahkan buat di @BotFather",
          "required": true,
-         "value": ""
+         "value": "5851945481:AAHyxkGMsxi0bOipQSJmcZTHv6tbabFu_UU"
       },
       "API_ID": {
          "description": "Dapatkan API_ID dari my.telegram.org, digunakan untuk modul berbasis telethon.",
          "required": true,
-         "value": ""
+         "value": "16246834"
       },
       "API_HASH": {
          "description": "Dapatkan API_HASH dari my.telegram.org, digunakan untuk modul berbasis telethon.",
          "required": true,
-         "value": ""
+         "value": "29b3ffa9245c07f05375b92f38e8f13d"
       },    
       "OWNER_ID": {
          "description": "Masukan Id Akun Tele Kamu.",
@@ -53,7 +53,7 @@
       "STRING_SESSION": {
          "description": "Masukan String Telethon ambil string di bot @CilikStringBot.",
          "required": true,
-         "value": "" 
+         "value": "1AZWarzwBu3MNsfjUMxlKthCvLRIta9jqNJLkfdweT_Ok3VMD54Y7-LqTYc_negS25j8kYoucIfwz1-MLo_Y4-yxPZvIbZI98MjsqF81l6V0xDBAbqpO2IL8PCu3nTWgHg6aNzAaRHXGQqUpMKu6sdLrNvx8fcaX3P7nN7_2YpSnrhPVqQZEP1kWz04r3uKcA_PAsUiRLXy0G_-YoKOAIQr34MZ777wKUsz34nxs9jhcNT_O4hf3Ou8bJKe_5z3qu3Eyof6OyR0c4pwUrsm42-5qYisSHcMKcQDwuMjoq7O6A6dqKkGYIaM_hunel8H6bxV3bSOunwYThJTHSDy5oFvz2UDXfJDQ=" 
       },
       "HEROKU_API_KEY": {
         "description": "Heroku API KEY Anda, dapatkan dari 'https://dashboard.heroku.com/account'",
@@ -65,26 +65,26 @@
       },
       "BOT_USERNAME": {
          "description": "Username bot Anda tanpa @",
-         "value": "GreyCilik_bot"
+         "value": "hancock_robot"
       },
       "BOT_ID": {
          "description": "Masukan Id Bot Anda",
-         "value": ""
+         "value": "5851945481"
       },
 
       "OWNER_USERNAME": {
          "description": "Username Anda tanpa @",
-         "value": "greyyvbss"
+         "value": "Cyellaku"
       },
       "SUPPORT_CHAT": {
          "description": "Masukan Username Grup Anda, Masukan Tanpa @.",
          "required": true,
-         "value": "CilikSupport"
+         "value": "Nakama_asl"
       },
       "MONGO_DB_URI": {
          "description": "Masukan MongoDb Database, Dapatkan di (MongoDB.com).",
          "required": true,
-         "value": ""
+         "value": "mongodb+srv://vipstream:Malik10_@cluster0.prmhpyh.mongodb.net/?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -97,12 +97,12 @@
      "EVENT_LOGS": {
          "description": "Masukan Id Grup Logs, Buatlah Grup Publik dan masukan bot anda, id grup pakai awalan -100",
          "required": true,
-         "value": "-1001692951846"
+         "value": "-1001729142523"
       },
       "JOIN_LOGGER": {
          "description": "Masukan Id Grup, bisa disamakan dengan vars event logs diatas.",
          "required": true,
-         "value": "-1001692951846"
+         "value": "-1001729142523"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -129,7 +129,7 @@
       "ERROR_LOG": {
          "description": "ID of log for show error.",
          "required": false,
-         "value": ""
+         "value": "-1001729142523"
      },
         "ARQ_API_KEY": {
             "description": "Dapatkan ini dari @ARQRobot.",
@@ -148,22 +148,22 @@
       "DRAGONS": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai pengguna sudo.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "DEMONS": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai pengguna dukungan (khusus izin gban).",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "TIGERS": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai pengguna harimau.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "WOLVES": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai daftar putih - tidak dapat diblokir dengan bot Anda.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
       },
       "ENV": {
          "description": "Menyetel ini ke APA SAJA akan mengaktifkan variabel lingkungan. Biarkan apa adanya",
@@ -201,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Donasi",
          "required": false,
-         "value": "@greyyvbss"
+         "value": "@Azure_id"
       },
       "DEL_CMDS": {
          "description": "Setel ini ke True jika Anda ingin menghapus pesan perintah dari pengguna yang tidak memiliki izin untuk menjalankan perintah itu.",
