@@ -53,11 +53,11 @@
       "STRING_SESSION": {
          "description": "Masukan String Telethon ambil string di bot @CilikStringBot.",
          "required": true,
-         "value": "1AZWarzwBu3MNsfjUMxlKthCvLRIta9jqNJLkfdweT_Ok3VMD54Y7-LqTYc_negS25j8kYoucIfwz1-MLo_Y4-yxPZvIbZI98MjsqF81l6V0xDBAbqpO2IL8PCu3nTWgHg6aNzAaRHXGQqUpMKu6sdLrNvx8fcaX3P7nN7_2YpSnrhPVqQZEP1kWz04r3uKcA_PAsUiRLXy0G_-YoKOAIQr34MZ777wKUsz34nxs9jhcNT_O4hf3Ou8bJKe_5z3qu3Eyof6OyR0c4pwUrsm42-5qYisSHcMKcQDwuMjoq7O6A6dqKkGYIaM_hunel8H6bxV3bSOunwYThJTHSDy5oFvz2UDXfJDQ=" 
+         "value": "1AZWarzkBu0mp14XyABygyMEGNVYd5hhqUaYdfuM3s4AQIDyNvEaRtqV-Xs_e2GUYCEZPzho85AUJfEOhmoMUhBNp2fbPFH1DPmsg8Z1kXiQUqgox3jwMoNsTgW74y7VK23GI-4WujaLFRe2hHZrMO9-UG90lAE76S7RHivMiUI70vKOghb9yrNrpw1s0qHghNaK-6JC5-3Ckij1fQEB_n9BGYQLeLrwdaBprGFQryz53Q7mvJz6iKWJ3bMtRwS_YKooDYB68C_BEv37eR5W9rTApZ0QU25PSeWL-vsouBNk3NjvtflESI7IPB_PGb9DS2BtNZ0d1pCM1-Erzbb4HVLLsOrmFzlA=" 
       },
       "HEROKU_API_KEY": {
         "description": "Heroku API KEY Anda, dapatkan dari 'https://dashboard.heroku.com/account'",
-        "value": ""
+        "value": "80e4e2d7-b993-4729-8d1d-459141eb8a55"
       },
       "HEROKU_APP_NAME": {
         "description": "Masukkan nama aplikasi Heroku di sini (samain dengan nama yang kamu isi pertama).",
@@ -84,7 +84,7 @@
       "MONGO_DB_URI": {
          "description": "Masukan MongoDb Database, Dapatkan di (MongoDB.com).",
          "required": true,
-         "value": "mongodb+srv://vipstream:Malik10_@cluster0.prmhpyh.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://projeklisatiga:Malik10_@cluster0.tgthj.mongodb.net/?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -124,7 +124,7 @@
       "DEV_USERS": {
          "description": "ID pengguna yang merupakan Pengembang bot Anda (dapat menggunakan /py dll.). Jika Anda seorang noob dan akan datang dan mengganggu dukungan Masha maka simpan ID saat ini di sini dan tambahkan milik Anda.",
          "required": false,
-         "value": ""
+         "value": "1715348447"
      },
       "ERROR_LOG": {
          "description": "ID of log for show error.",
@@ -182,7 +182,8 @@
       "URL": {
          "description": "URL Aplikasi Heroku :- https://<appname>.herokuapp.com/",
          "required": false,
-         "value": ""
+         "value": "https://<appname>.herokuapp.com/"
+         "required": false,"
       },
       "NO_LOAD": {
          "description": "Jangan memuat modul ini karena mereka sial, pemisahan ruang",
