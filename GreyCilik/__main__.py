@@ -84,8 +84,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT =
 
 
-HELP_STRINGS = """
-Click on the button bellow to get description about specifics command."""
+HELP_STRINGS =
 
 CILIK_IMG = ""
 
