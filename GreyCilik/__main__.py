@@ -81,37 +81,13 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """
-*Hello {} !*
-✪ I'm Executive management bot [✨](https://telegra.ph/file/87cc8b9a162d7e019e4df.jpg)
-────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
-✪ Hit /help to see my available commands.
-"""
-
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
-    ],
-    [
-        InlineKeyboardButton(text="Get Help ❓", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="Support 💌", url=f"t.me/{SUPPORT_CHAT}"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name} 🤖", callback_data="cilik_"),
-    ],
-]
+PM_START_TEXT =
 
 
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-CILIK_IMG = "https://telegra.ph/file/b255d5686af78a920e83d.jpg"
+CILIK_IMG = ""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @azure_id \
